@@ -1,0 +1,88 @@
+body
+{
+    background-image:("Images/Contact.PNG");
+    color: antiquewhite;
+}
+h2
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    /*margin-top: 100px;*/
+}
+button{
+    margin: 10px;
+    color: black;
+}
+.Contact
+{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+* {
+    box-sizing: border-box;
+    border-radius: 20px;
+  }
+  
+  .bg-image {
+    background-image: url("Images/Contact.PNG");
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bg-text 
+  {
+  color:aliceblue;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  }
+  .navbar
+  {
+      width: 100%;
+      background-color: rgb(1, 1, 44);
+      overflow: auto;
+  }
+  .navbar a
+  {
+      float: left;
+      padding: 12px;
+      background-color: rgb(1, 1, 44);
+      color: rgb(250, 245, 245);
+      text-decoration: none;
+      font-size: 20px;
+  }
+  .navbar a:hover
+  {
+      background-color: rgb(250, 245, 245);
+      color: rgb(1, 1, 44);
+  }
+  .active
+  {
+      background-color: aquamarine;
+  }
+  @media screen and (max-width:500px) 
+  {
+      .navbar a 
+      {
+         float: none;
+         display: block;
+      }   
+  }
+  h4
+  {
+    color: black;
+  }
+  .modal-body{
+    color: black;
+  }
